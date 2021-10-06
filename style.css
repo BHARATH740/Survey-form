@@ -1,0 +1,61 @@
+p {
+    background-color: black;
+}
+/* .name1 {
+    display: flex;
+    flex-direction: row;
+} */
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    -webkit-box-shadow: 0 0 5px 2px #fff;
+    -moz-box-shadow: 0 0 5px 2px #fff;
+    box-shadow: 0 0 5px 2px #fff;
+
+
+}
+.form-group {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.g {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+body {
+    font-size: 1.5em;
+    background-image: url(bgimage_for_surveyform.jpg);
+    font-weight: 100;
+    color: white;
+}
+/* input {
+    width: 100%;
+    height: 1.5em;
+} */
+#name,#email,#gemail,#number,#dropdown {
+    width: 100%;
+    height: 2em;
+    margin-right: 2%;
+}
+#group3 {
+    width: 100%;
+    min-height: 120px;
+}
+#title,#description,#end {
+    text-align: center;
+}
+#submit-btn {
+    width: 100%;
+    height: 3em;
+    margin-bottom: 4%;
+}
+#submit-btn:hover {
+    background-color: greenyellow;
+}
+/* .group2,.group3 {
+    height: 2em;
+} */

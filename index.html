@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Survey form</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1 id="title"><i>GCT Survey form</i></h1>
+        <p id="description"><i>Thank you for taking the time to help us improve our college platform</i></p>
+        <form id="survey-form">
+            <div class="form-group">
+                <label class="g" id="name-label">   Enter your name : </label><br>
+                <input class="g" id="name" type="text" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+                <label class="g" id="emai-label">   Enter mail id(Personal) : </label><br>
+                <input class="g" id="email" type="email" placeholder="Enter valid mail id" required>
+            </div>
+            <div class="form-group">
+                <label class="g" id="gemai-label">  Enter mail id(Gsuite) : </label><br>
+                <input class="g" id="gemail" type="email" placeholder="Enter gsuite mail id"  required >
+            </div>
+            <div class="form-group">
+                <label class="g" id="number-label"> Enter age : </label><br>
+                <input class="g" id="number" type="number" placeholder="Enter age" min="16" max="120" required>
+            </div>
+            <div class="form-group">
+                <label class="g" id="dropdown-label">   Enter your department : </label><br>
+                <select class="g" id="dropdown"  placeholder="Select Option" required>
+                    <option disabled selected>Select Option</option>
+                    <option value="CSE">CSE</option>
+                    <option value="IT">IT</option>
+                    <option value="ECE">ECE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="Mech">Mech</option>
+                    <option value="Production">Production</option>
+                    <option value="Civil">Civil</option>
+                    <option value="IBT">IBT</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="g" id="group2-label"> Enter the fields which you are intersted : </label><br>
+                <input class="group2" type="checkbox">Front End web devlopment <br>
+                <input class="group2" type="checkbox">Back End web development <br>
+                <input class="group2" type="checkbox">Full stack <br>
+                <input class="group2" type="checkbox">Machine learning <br>
+                <input class="group2" type="checkbox">Data Science <br>
+                <input class="group2" type="checkbox">IOT <br>
+                <input class="group2" type="checkbox">Cyber security <br>
+                <input class="group2" type="checkbox">Other fields <br>
+            </div>
+            <div class="form-group">
+                <label class="g" id="group1-label"> How much rating will you give for our college : </label><br>
+                <input name="user-recommend" class="group1" type="radio" value="Ok" >"Ok"<br>
+                <input name="user-recommend" class="group1" type="radio" value="Good" >"Good"<br>
+                <input name="user-recommend" class="group1" type="radio" value="Best" >"Best"<br>
+            </div>
+            <div class="form-group">
+                <label class="g" id="group3-label" >    Few words about our college : (optional)</label><br>
+                <textarea class="g " id="group3" type="text" maxlength="500" placeholder="Enter comments here...... "></textarea>
+            </div>
+            <div id="submit-button">
+                <input id="submit-btn" type="submit" placeholder="Submit">
+            </div>
+        </form>
+        <p id="end">Thank you for spending your valuable time with us.</p>
+    </body>
+</html>
